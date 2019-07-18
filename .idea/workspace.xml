@@ -193,6 +193,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -364,12 +365,12 @@
       <workItem from="1563112840390" duration="412000" />
       <workItem from="1563113308552" duration="221000" />
       <workItem from="1563113547914" duration="90444000" />
-      <workItem from="1563414733051" duration="391000" />
+      <workItem from="1563414733051" duration="764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104725000" />
+    <option name="totallyTimeSpent" value="105098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -941,7 +942,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -984,7 +984,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>assignment3</last-edited>
+          <last-edited>WAPFinalProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,31 @@
+.main-signup-container {
+    width: 50vw;
+    margin: 0 auto;
+    /*padding: 50px;*/
+}
+
+.sign-in textarea {
+    padding: 5px;
+    width: 100%;
+    font-size: var(--smallFont);
+    margin-top: 20px;
+    height: 70px;
+}
+.sign-in a{
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.sign-in a:hover{
+    color: var(--secondaryColor);
+    text-decoration: underline;
+}
+
+ input[type="file"]{
+     padding: 5px;
+     width: 100%;
+     font-size: var(--smallFont);
+     margin-top: 20px;
+     font-family: var(--primaryFont);
+     color: var(--lightGreyColor);
+ }

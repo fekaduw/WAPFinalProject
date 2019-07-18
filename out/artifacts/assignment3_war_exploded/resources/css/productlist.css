@@ -1,0 +1,25 @@
+.productslist{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, auto));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.productslist img{
+    width: 10vw;
+    height: 10vh;
+}
+
+.productslist h1{
+    font-family: var(--primaryFont);
+    font-size: var(--smallFont);
+    font-weight: normal;
+    border-bottom: 1px var(--secondaryColor) dotted;
+}
+
+.productslist .heading{
+    font-weight: bold;
+    font-size: var(--smallFont);
+    text-transform: uppercase;
+    color: var(--primaryColor);
+}

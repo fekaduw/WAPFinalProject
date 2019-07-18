@@ -1,0 +1,86 @@
+body {
+    font-family: var(--primaryFont);
+}
+
+
+.main-login-container {
+    width: 30vw;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.sign-in-up-form {
+    border: 1px var(--secondaryColor) solid;
+    padding: 5px 50px;
+}
+
+.sign-in h1 {
+    font-size: var(--mediumFont);
+    color: var(--secondaryColor);
+}
+
+.sign-in input[type="text"], input[type="password"] {
+    padding: 5px;
+    width: 100%;
+    font-size: var(--smallFont);
+    margin-top: 20px;
+}
+
+input[type="file"]{
+    padding: 5px;
+    width: 100%;
+    font-size: var(--smallFont);
+    margin-top: 20px;
+}
+
+.sign-in input[type="submit"] {
+    padding: 5px;
+    width: 100%;
+    font-size: var(--smallFont);
+    margin-top: 20px;
+    background: var(--primaryColor);
+    color: antiquewhite;
+}
+
+.sign-in input[type="submit"]:hover {
+    background: var(--secondaryColor);
+    color: var(--btnPrimaryTextColor);
+    cursor: pointer;
+}
+
+.sign-in input[type="checkbox"] {
+    width: 5px;
+    height: 5px;
+}
+
+label{
+    font-size: var(--smallFont);
+}
+
+.condition {
+    font-size: var(--tinyFont);
+}
+
+.create-account {
+    font-size: var(--smallFont);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.create-account input[type="button"]{
+    width: 100%;
+height: 30px;
+    background: var(--btnSecondaryBgColor);
+    color: var(--secondaryColor);
+}
+
+.create-account input[type="button"]:hover{
+    background: var(--secondaryColor);
+    color: var(--btnPrimaryTextColor);
+    cursor: pointer;
+}
+
+.create-account hr{
+    height: 1px;
+    background: var(--lightGreyColor);
+}

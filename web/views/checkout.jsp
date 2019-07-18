@@ -14,11 +14,11 @@
 <head>
     <title>Title</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="resources/css/styles.css" rel="stylesheet"/>
-    <link href="resources/css/login.css" rel="stylesheet"/>
-    <link href="resources/css/checkout.css" rel="stylesheet"/>
+    <link href="../resources/css/styles.css" rel="stylesheet"/>
+    <link href="../resources/css/login.css" rel="stylesheet"/>
+    <link href="../resources/css/checkout.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/8e1265fd78.js"></script>
-    <script src="resources/js/checkout.js"></script>
+    <script src="../resources/js/checkout.js"></script>
 </head>
 <body>
 <div class="main-container">

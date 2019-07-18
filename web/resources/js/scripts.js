@@ -51,10 +51,14 @@ $(document).ready(function () {
     const search = $("#search").val();
 
     if(search==null || search==""){
+
         $.ajax({
             type: "post",
             url: "search",
             data: {searchTerm: ""},
+            beforeSend: function() {
+                $('#loading-indicator').show();
+            },
             success: function (response) {
 
                 let html = response.map(function (obj) {
@@ -66,8 +70,7 @@ $(document).ready(function () {
                     return line1.concat(line2, line3, line4);
                 });
 
-                //alert(data);
-
+                $('#loading-indicator').hide();
                 $("#product_list").html(html);
             }
         });
@@ -81,6 +84,10 @@ $(document).ready(function () {
             type: "post",
             url: "search",
             data: {searchTerm: productName},
+            data: {searchTerm: ""},
+            beforeSend: function() {
+                $('#loading-indicator').show();
+            },
             success: function (response) {
 
                 let html = response.map(function (obj) {
@@ -92,8 +99,7 @@ $(document).ready(function () {
                     return line1.concat(line2, line3, line4);
                 });
 
-                //alert(data);
-
+                $('#loading-indicator').hide();
                 $("#product_list").html(html);
             }
         });

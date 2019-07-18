@@ -11,10 +11,10 @@
 <html>
 <head>
     <title>Welcome to Smart Shopping</title>
-    <link href="resources/css/styles.css" rel="stylesheet"/>
-    <link href="resources/css/productlist.css" rel="stylesheet"/>
+    <link href="../resources/css/styles.css" rel="stylesheet"/>
+    <link href="../resources/css/productlist.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="resources/js/scripts.js" rel="script"></script>
+    <script src="../resources/js/scripts.js" rel="script"></script>
     <script src="https://kit.fontawesome.com/8e1265fd78.js"></script>
 </head>
 <body>

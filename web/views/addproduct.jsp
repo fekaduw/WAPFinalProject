@@ -12,9 +12,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Smart Shopping - log in</title>
-    <link href="resources/css/styles.css" rel="stylesheet"/>
-    <link href="resources/css/login.css" rel="stylesheet"/>
-    <link href="resources/css/signup.css" rel="stylesheet"/>
+    <link href="../resources/css/styles.css" rel="stylesheet"/>
+    <link href="../resources/css/login.css" rel="stylesheet"/>
+    <link href="../resources/css/signup.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="main-signup-container">

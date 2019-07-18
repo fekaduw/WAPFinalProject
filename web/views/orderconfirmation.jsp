@@ -8,8 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <title>Title</title>
-    <link href="resources/css/styles.css" rel="stylesheet"/>
-    <link href="resources/css/checkout.css" rel="stylesheet"/>
+    <link href="../resources/css/styles.css" rel="stylesheet"/>
+    <link href="../resources/css/checkout.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="main-container">

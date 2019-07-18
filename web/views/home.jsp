@@ -11,9 +11,9 @@
 <html>
 <head>
     <title>Welcome to Smart Shopping</title>
-    <link href="resources/css/styles.css" rel="stylesheet"/>
+    <link href="../resources/css/styles.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="resources/js/scripts.js" rel="script"></script>
+    <script src="../resources/js/scripts.js" rel="script"></script>
     <script src="https://kit.fontawesome.com/8e1265fd78.js"></script>
 </head>
 <body>
@@ -44,6 +44,10 @@
                 </div>
             </div>
         </form>
+        <div id='loading-indicator' style="position: absolute; left: 50%; top: 50%; display: none;">
+            <img src="https://www.drupal.org/files/issues/ajax-loader.gif" />
+        </div>
+
         <div class="product-list" id="product_list">
 <%--            <c:forEach items="${products}" var="product">--%>
 <%--                <div class="product" id="product">--%>
